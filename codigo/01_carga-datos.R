@@ -5,7 +5,7 @@ library(tidyverse)
 
 # Funcion -----------------------------------------------------------------
 
-ChileAirQuality(
+datos_cerrillos <- ChileAirQuality(
   Comunas = "Cerrillos",
   Parametros = c("PM10", "PM25"),
   fechadeInicio = "01/01/2020",
